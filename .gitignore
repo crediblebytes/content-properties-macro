@@ -6,6 +6,3 @@ store.db
 *.pem
 credentials.json
 settings.json
-
-
-credentials.json

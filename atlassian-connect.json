@@ -1,10 +1,10 @@
     {
-      "key": "confluence-helloworld-addon",
-      "name": "Hello World",
-      "description": "My very first add-on",
+      "key": "confluence-content-properties-addon",
+      "name": "Content Properties",
+      "description": "Display content properties inside a 'Page Properties' macro",
       "vendor": {
-        "name": "Angry Nerds",
-        "url": "https://www.atlassian.com/angrynerds"
+        "name": "Don Page",
+        "url": "https://www.pagedon.com"
       },
       "baseUrl": "{{localBaseUrl}}",
       "links": {
@@ -23,13 +23,13 @@
       "modules": {
         "dynamicContentMacros": [
           {
-            "key": "helloworld-macro",
+            "key": "content-properties-macro",
             "name": {
-              "value": "Hello World Macro"
+              "value": "Content Properties Macro"
             },
             "url": "/macro",
             "description": {
-              "value": "Says 'Hello World'."
+              "value": "Display a table of the content properties inside the 'Page properties' macro"
             },
             "outputType": "block",
             "bodyType": "none"
